@@ -30,12 +30,12 @@ function s1(dom = document) {
 
 async function scheduleHtmlProvider() {
   let updatelog =
-    "⏰更新时间2024.8.14\n\n"+
-    "🚦请点进教务管理系统后再导入\n\n"+
+    "⏰更新时间2024.8.28\n\n"+
+    "🚦请点进教务管理系统后再导入\n"+
+    "😇防止bug导入后创建请选当前课表\n\n"+
     "✨项目开源地址:github.com/Lilas-kami/XiaoAISchedule-sgmtu\n\n"+
     "🎉有bug或问题请在git上面提交issues或发邮箱\n\n"+
-    "🌞邮箱:3555554321@qq.com"
-    ;
+    "邮箱:3555554321@qq.com";
   await loadTool('AIScheduleTools')
   await AIScheduleAlert({
     titleText: '欢迎使用', // 标题内容，字体比较大，不传默认为提示
